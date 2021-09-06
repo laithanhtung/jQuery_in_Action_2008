@@ -1,0 +1,14 @@
+[
+  {url:'tomcat.pdf',caption:'Tomcat setup document'},  
+  {url:'listing.8.3.html',caption:'Listing 8.3 Example'},
+  {url:'bootcloset/boot.closet.1.html',caption:'The Boot Closet example, phase 1'},
+  {url:'$.get.html',caption:'$.get() Example'},
+  {url:'bootcloset/boot.closet.2.html',caption:'The Boot Closet example, phase 2'},
+  {url:'listing.8.6.html',caption:'Listing 8.6 Example'},
+  {url:'bootcloset/boot.closet.3.html',caption:'The Boot Closet example, phase 3'},
+  {url:'serialize.html',caption:'serialize() example'},
+  {url:'jquery_ajax_load.html',caption:'Test load() method'},
+  {url:'jquery_ajax_get.html',caption:'Test get() method'},
+  {url:'jquery_ajax_post.html',caption:'Test post() method'},
+  {url:'jquery_ajax_ajax.html',caption:'Test ajax() method'}
+]

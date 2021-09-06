@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>jQuery Test Project</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".button").click(function(){
+                    $("#fadeToID").fadeTo("slow",0.25);
+                });
+
+                $("#fadeOutID").click(function(){
+                    $(this).fadeOut(4000);
+                });
+
+                $(".btn1").click(function(){
+                    $("p").fadeOut()
+                });
+                $(".btn2").click(function(){
+                    $("p").fadeIn();
+                });
+
+
+            });
+
+        </script>
+    </head>
+
+    <body>
+        <fieldset>
+        <legend>fadeTo demo</legend>
+        <div id="fadeToID" style="background:yellow;width:300px;height:300px">
+            <button class="button">Click to FadeTo</button>
+        </div>
+        </fieldset>
+        
+        <br/>
+        <fieldset>
+        <legend>fadeOut demo</legend>
+        <div id="fadeOutID" style="background:yellow;width:200px">CLICK ME AWAY! fadeOut</div>
+        <br/>If you click on the box above, it will be removed.
+         </fieldset>
+        
+        <br/>
+        <fieldset>
+        <legend>fadeIn demo</legend>
+        <p>This is a paragraph for fadeIn/fadeOut demo.</p>
+        <button class="btn1">Fade out</button>
+        <button class="btn2">Fade in</button>
+         </fieldset>
+    </body>
+</html>
